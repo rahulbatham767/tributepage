@@ -1,10 +1,16 @@
 {
   "files": {
-    "main.js": "/Tributepage/static/js/main.0d4a2863.js",
-    "index.html": "/Tributepage/index.html",
-    "main.0d4a2863.js.map": "/Tributepage/static/js/main.0d4a2863.js.map"
+    "main.css": "/rahulbatham767/tributepage/static/css/main.e758e55d.css",
+    "main.js": "/rahulbatham767/tributepage/static/js/main.3fd25abc.js",
+    "static/media/facebook.jpg": "/rahulbatham767/tributepage/static/media/facebook.873a8c384af85cd37102.jpg",
+    "static/media/img.jpg": "/rahulbatham767/tributepage/static/media/img.c546cd64f2a1b7f113f3.jpg",
+    "static/media/img2.webp": "/rahulbatham767/tributepage/static/media/img2.bb723e1d5e922879ef2b.webp",
+    "index.html": "/rahulbatham767/tributepage/index.html",
+    "main.e758e55d.css.map": "/rahulbatham767/tributepage/static/css/main.e758e55d.css.map",
+    "main.3fd25abc.js.map": "/rahulbatham767/tributepage/static/js/main.3fd25abc.js.map"
   },
   "entrypoints": [
-    "static/js/main.0d4a2863.js"
+    "static/css/main.e758e55d.css",
+    "static/js/main.3fd25abc.js"
   ]
 }
