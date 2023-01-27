@@ -1,5 +1,5 @@
 import Carosuel from "./Components/Carosuel";
-
+import './index.css'
 function App() {
   return (
     <>

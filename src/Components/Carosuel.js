@@ -3,24 +3,29 @@ import { BsFacebook, BsSkype } from 'react-icons/bs'
 import { BsInstagram } from 'react-icons/bs'
 import { BsWhatsapp } from 'react-icons/bs'
 import { BsSnapchat } from 'react-icons/bs'
+import img from './images/img.jpg'
+import img1 from './images/img1.jpeg'
+import img2 from './images/img2.webp'
+// import { img } from './images/img.jpg'
 
 const Carosuel = () => {
     return (
-        <div className='positon-relative z-0 '>
+        <div className='positon-relative z-0 tribute'>
+
             <div className="heading position-absolute z-1  text-white fw-bold" style={{ left: "33%", top: "40%" }} >
                 <h1 className='fw-bold text-uppercase' style={{ marginLeft: "20px" }}>Mark Zuckerberg</h1>
                 <h4 className='text-uppercase' >The Man Who Founded Facebook</h4>
             </div>
-            <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleControls" className="carousel slide     " data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active" style={{ height: "100vh" }}>
-                        <img src="./img.jpg" className="d-block w-100" alt="..." />
+                        <img src={img} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item" style={{ height: "100vh" }}>
-                        <img src="./img2.webp" className="d-block w-100" alt="..." />
+                        <img src={img1} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item" style={{ height: "100vh" }}>
-                        <img src="./img3.jpeg" className="d-block w-100" alt="..." />
+                        <img src={img2} className="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -57,19 +62,21 @@ const Carosuel = () => {
                     </div>
                 </div>
             </div>
-            <div className="container my-5 card p-3 text-white shadow-lg" style={{ background: "transparent" }}>
+            <div className="container my-5 card p-3  shadow-lg" style={{ background: "transparent" }}>
                 <div className="d-flex justify-content-center">
-                    <a href="https://www.facebook.com/" target="_blank"> <BsFacebook style={{ fontSize: "34px", margin: "20px" }} />
+                    <a href="https://www.facebook.com/" rel="noreferrer" target="_blank"> <BsFacebook style={{ fontSize: "34px", margin: "20px" }} />
                     </a>
-                    <a href="https://www.instagram.com/" target="_blank"> <BsInstagram style={{ fontSize: "34px", margin: "20px" }} /></a>
-                    <a href="https://web.whatsapp.com/" target="_blank"> <BsWhatsapp style={{ fontSize: "34px", margin: "20px" }} />
+                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"> <BsInstagram style={{ fontSize: "34px", margin: "20px" }} /></a>
+                    <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer"> <BsWhatsapp style={{ fontSize: "34px", margin: "20px" }} />
                     </a>
-                    <a href="https://www.snapchat.com/" target="_blank"> <BsSnapchat style={{ fontSize: "34px", margin: "20px" }} />
+                    <a href="https://www.snapchat.com/" target="_blank" rel="noreferrer"> <BsSnapchat style={{ fontSize: "34px", margin: "20px" }} />
                     </a>
-                    <a href="https://www.skype.com/en/" target="_blank"> <BsSkype style={{ fontSize: "34px", margin: "20px" }} />
+
+                    <a href="https://www.skype.com/en/" rel="noreferrer" target="_blank"> <BsSkype style={{ fontSize: "34px", margin: "20px" }} />
                     </a>
                 </div>
             </div>
+
         </div>
     )
 }
